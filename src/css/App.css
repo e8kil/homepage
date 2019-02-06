@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-variant: small-caps;
+  box-sizing: border-box;
+}
+/* 
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+} */
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+} */
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height:70px;
+  background:#fff;
+  width:90%;
+  max-width: 500px;
+  margin:0 auto;   
+  padding-top:50px; 
+}
+
+h1 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
+  margin-top: 0px;
+  letter-spacing: 3px; 
+}
+
+.App-navigation {
+  width:90%;
+  max-width: 700px;
+  margin:0 auto;
+  height: 50px;
+  background-color:#fff;
+}
+.Navigation-ul {
+  display: inline-block;
+  padding:0px;
+  width: 100%;
+}
+
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 18px;
+  width:33%;
+  float:left;
+  color:#000000;
+  padding-top:10px;
+  text-transform: uppercase;
+}
+
+.App-main {
+  height:calc(100vh - 220px);
+  width:100%;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #fff;
+  padding:10px;
+  box-sizing: border-box;
+  color:#000;
+  font-weight: 600;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Macro, .Nature, .HumansAndAnimals, .Other, .About, .Home {
+  height: 100%;
+}
+
+.aboutContainer {
+  padding:20px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif; 
+  width:90%;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.about-profile-image {
+  width:150px;
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .App-header {
+    padding-top:20px; 
+    height:25px;
+  }
+
+  .swiper-slide {
+    height:380px !important;
+  }
+
+  li, .dropbtn {
+    font-size: 15px !important;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
